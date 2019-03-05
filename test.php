@@ -1,3 +1,3 @@
 <?php
-header("Location: https://app.opsgeni.us/user/changeUsername", true, 307);
+header("Location: ".$_GET["endpoint"], true, 307);
 ?>
